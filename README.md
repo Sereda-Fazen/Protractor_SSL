@@ -53,6 +53,9 @@ The folder "steps" currently contains one method for making screens
 
 This folder will contain all screens
 
+Run Tests
+---------
+
 Also the project contains two file js
 
 ```
@@ -64,9 +67,6 @@ ex_spec.js (contains all tests according to documents of test-cases)
 ```
 
 In order to run tests you need to use "conf.js" file for example:
-
-Run Tests
----------
 
 ```
 protractor cong.js
