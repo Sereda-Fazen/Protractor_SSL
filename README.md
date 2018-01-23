@@ -6,6 +6,10 @@ Getting Started
 To get set up and running quickly:
 
 ```
+apt-get install nodejs
+```
+
+```
 install npm
 ```
 
@@ -17,7 +21,6 @@ or
 ```
 npm install protractor@latest --save (for the latest version)
 ```
-
 
 The webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. Use it to download the necessary binaries with:
 
