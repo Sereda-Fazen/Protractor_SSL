@@ -5,10 +5,11 @@ Getting Started
 
 To get set up and running quickly:
 
-```install npm
-    ```
+install npm
+
 ```npm install -g protractor
-    ```
+```
+
     or
 ```npm install protractor@latest --save (for the latest version)
     ```
