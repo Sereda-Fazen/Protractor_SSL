@@ -7,12 +7,10 @@ To get set up and running quickly:
 
 ```
 install npm
-
 ```
 
 ```
 npm install -g protractor
-
 ```
 
     or
