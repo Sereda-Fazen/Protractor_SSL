@@ -35,8 +35,8 @@ Then you can start up server the following command:
 webdriver-manager start
 
 ```
-The project contains the folder
--------------------------------
+Project architecture
+--------------------
 
 * page
 
