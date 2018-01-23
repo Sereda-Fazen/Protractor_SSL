@@ -12,22 +12,29 @@ install npm
 ```
 npm install -g protractor
 ```
+or
 
-    or
-```npm install protractor@latest --save (for the latest version)
-    ```
+```
+npm install protractor@latest --save (for the latest version)
+```
+
+
 The webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. Use it to download the necessary binaries with:
 
-```webdriver-manager update (we get the latest version of selenium server and chromedriver)
-    ```
+```
+webdriver-manager update (we get the latest version of selenium server and chromedriver)
+```
    Note: You should install the version of browser >= 62 version
 
-```webdriver-manager update (we get the latest version of selenium server and chromedriver)
-    ```
+```
+webdriver-manager update (we get the latest version of selenium server and chromedriver)
+```
 Then you can start up server the following command:
 
-```webdriver-manager start
-    ```
+```
+webdriver-manager start
+
+```
 The project contains the folder
 
 * page
