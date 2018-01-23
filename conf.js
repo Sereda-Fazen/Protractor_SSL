@@ -9,7 +9,7 @@ exports.config = {
     }
   },
 
-  
+
   // Fraework to use. Jasmine is recommended.
   framework: 'jasmine',
 
@@ -20,7 +20,7 @@ exports.config = {
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
     showColors: true,
-    defaultTimeoutInterval: 20000,
+    defaultTimeoutInterval: 30000,
     isVerbose: true
   }
   
