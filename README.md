@@ -33,7 +33,6 @@ Then you can start up server the following command:
 
 ```
 webdriver-manager start
-
 ```
 Project architecture
 --------------------
