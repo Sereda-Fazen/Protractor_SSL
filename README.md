@@ -44,7 +44,7 @@ In these pages use locators and method PageObject
 
 * steps
 
-The folder "steps" currently contain one method for making screens
+The folder "steps" currently contains one method for making screens
 
 * screens
 
@@ -52,9 +52,13 @@ This folder will contain all screens
 
 Also the project contains two file js
 
-* conf.js
-* ex_spec.js (contains all tests according to documents of test-cases)
+```
+conf.js
+```
 
+```
+ex_spec.js (contains all tests according to documents of test-cases)
+```
 
 In order to run tests you can use "conf.js" file for example:
 
