@@ -62,5 +62,6 @@ ex_spec.js (contains all tests according to documents of test-cases)
 
 In order to run tests you can use "conf.js" file for example:
 
-```protractor cong.js
-    ```
+```
+protractor cong.js
+```
