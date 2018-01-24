@@ -97,4 +97,4 @@ If we open "index.html" we will see this report
 
 
 
-![alt text](http://joxi.ru/E2p1djEC9zVRBA)
+![Alt text](http://full/path/to/img.jpg "Optional title")
