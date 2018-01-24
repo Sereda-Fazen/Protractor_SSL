@@ -20,8 +20,8 @@ var homePage = function () {
     
     
         this.goto = function (url) {
-        browser.get(url);
-        expect(browser.getCurrentUrl()).toBe(url);
+            browser.get(url);
+            expect(browser.getCurrentUrl()).toBe(url);
     };
     
     this.refresh = function () {
