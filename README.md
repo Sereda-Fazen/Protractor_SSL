@@ -75,7 +75,11 @@ protractor conf.js
 Report
 ------
 First off all we need to add [Allure](https://docs.qameta.io/allure/) to our system
+And add the following command
 
+```
+npm i jasmine-allure-reporter
+```
 
 In this project was added jasmine-allure report. The module of allure plugin can see in "conf.js"
 
