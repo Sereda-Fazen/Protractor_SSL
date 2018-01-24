@@ -8,7 +8,9 @@
 
 exports.config = {
 
-  
+
+  framework: 'jasmine2',
+
   onPrepare: function () {
     var AllureReporter = require('jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter());
@@ -21,6 +23,7 @@ exports.config = {
       })
     });
   },
+
 
   // beforeLaunch: function() {
   //   return new Promise(function(resolve){
@@ -42,16 +45,8 @@ exports.config = {
     }
   },
 
-
-
-  // client: {
-  //   chai: {
-  //     includeStack: true
-  //   }
-  // },
-
   // Fraework to use. Jasmine is recommended.
-  framework: 'jasmine',
+ 
   
   // Spec patterns are relative to the current working directory when
   // protractor is called.
