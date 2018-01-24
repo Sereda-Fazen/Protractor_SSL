@@ -45,14 +45,6 @@ Project architecture
 The folder "page" contains all pages which use for writing test cases (loginPage, homePage and profilePage)
 In these pages use locators and method PageObject
 
-* steps
-
-The folder "steps" currently contains one method for making screens
-
-* screens
-
-This folder will contain all screens
-
 Run Tests
 ---------
 
