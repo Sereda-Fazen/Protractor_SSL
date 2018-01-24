@@ -51,12 +51,12 @@ var homePage = function () {
     this.check_featured = function () {
 
         featured_rating.getAttribute('class').then(function (atr) {
-            name = atr.split('-');
-            var rating = parseInt(name[1]);
+            rat1 = atr.split('-');
+            var rating = parseInt(rat1[1]);
             console.log(rating);
             featured_rating_2.getAttribute('class').then(function (atr2) {
-                name2 = atr2.split('-');
-                var rating2 = parseInt(name2[1]);
+                rat2 = atr2.split('-');
+                var rating2 = parseInt(rat2[1]);
                 console.log(rating2);
                 
                 if (rating => rating2) {

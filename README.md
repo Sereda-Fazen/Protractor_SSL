@@ -69,7 +69,7 @@ ex_spec.js (contains all tests according to documents of test-cases)
 In order to run tests you need to use "conf.js" file for example:
 
 ```
-protractor cong.js
+protractor conf.js
 ```
 
 Report
@@ -82,7 +82,7 @@ In this project was added jasmine-allure report. The module of allure plugin can
 To get the report enough to start up tests
 
 ```
-protractor cong.js
+protractor conf.js
 ```
 
 After executing tests we get the report "allure-results" with "xml" files
