@@ -17,8 +17,7 @@ var homePage = function () {
     
     // profile
     
-    
-    
+
         this.goto = function (url) {
             browser.get(url);
             expect(browser.getCurrentUrl()).toBe(url);
@@ -60,7 +59,7 @@ var homePage = function () {
                 var rating2 = parseInt(name2[1]);
                 console.log(rating2);
                 
-                if (rating => rating2){
+                if (rating => rating2) {
                     //console.log("Sorting Ratings - works correctly");
                     expect(rating).toBeGreaterThan(rating2);
                     expect(rating).not.toEqual(rating2)
