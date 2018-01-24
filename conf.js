@@ -1,14 +1,5 @@
-// const HtmlScreenshotReporter = require("protractor-jasmine2-screenshot-reporter");
-// const htmlScreenshoReporter = new HtmlScreenshotReporter({
-//   dest: `./screenshots/${new Date().getTime()}`,
-//   filename: "report.html",
-//   ignoreSkippedSpecs: true,
-//   captureOnlyFailedSpecs: true
-// });
-
 exports.config = {
-
-
+  
   framework: 'jasmine2',
 
   onPrepare: function () {
@@ -46,8 +37,8 @@ exports.config = {
   },
 
   // Fraework to use. Jasmine is recommended.
- 
-  
+
+
   // Spec patterns are relative to the current working directory when
   // protractor is called.
   specs: ['ex_spec.js'],

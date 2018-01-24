@@ -71,3 +71,29 @@ In order to run tests you need to use "conf.js" file for example:
 ```
 protractor cong.js
 ```
+
+Report
+------
+First off all we need to add [Allure](https://docs.qameta.io/allure/) to our system
+
+
+In this project was added jasmine-allure report. The module of allure plugin can see in "conf.js"
+
+To get the report enough to start up tests
+
+```
+protractor cong.js
+```
+
+After executing tests we get the report "allure-results" with "xml" files
+Then to get report in locally, need to execute the following command
+
+```
+allure generate ./allure-results/
+```
+
+And we can get the next folder "allure-report"
+If we open "index.html" we will see this report
+
+
+<img src="http://joxi.ru/E2p1djEC9zVRBA"></img>
