@@ -96,4 +96,4 @@ And we can get the next folder "allure-report"
 If we open "index.html" we will see this report
 
 
-<img src="http://joxi.ru/E2p1djEC9zVRBA">
+![alt text](http://joxi.ru/E2p1djEC9zVRBA)
