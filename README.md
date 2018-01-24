@@ -95,6 +95,4 @@ allure generate ./allure-results/
 And we can get the next folder "allure-report"
 If we open "index.html" we will see this report
 
-
-
-![Alt text](http://full/path/to/img.jpg "Optional title")
+![Alt 1 text](http://joxi.ru/E2p1djEC9zVRBA "Optional title")
