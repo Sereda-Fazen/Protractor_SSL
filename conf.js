@@ -14,8 +14,7 @@ exports.config = {
       })
     });
   },
-
-
+  
   // beforeLaunch: function() {
   //   return new Promise(function(resolve){
   //     htmlScreenshoReporter.beforeLaunch(resolve);
@@ -41,7 +40,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['ex_spec.js'],
+  specs: ['imap_gmail.js','ex_spec.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
